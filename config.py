@@ -79,7 +79,7 @@ keys = [
     Key([mod], "k", lazy.layout.up(), desc="Mover Foco a Arriba"),
     Key([mod], "h", lazy.layout.left(), desc="Mover Foco a la Izquierda"),
     Key([mod], "l", lazy.layout.right(), desc="Mover Foco a la Derecha"),
-    
+  
     #Movement
     Key([mod, "shift"], "j", lazy.layout.shuffle_down(), desc="Mover Ventana Abajo"),
     Key([mod, "shift"], "k", lazy.layout.shuffle_up(), desc="Mover Ventana Arriba"),
@@ -141,7 +141,7 @@ keys = [
     Key([mod], "t", lazy.spawn("urxvtc")),
     Key([mod], "m", lazy.spawn("thunderbird")),
     Key([mod], "v", lazy.spawn("vlc")),
-    Key([mod], "f", lazy.spawn("pcmanfm"), desc="Gestor de Archivos"),
+    Key([mod], "f", lazy.spawn("nautilus"), desc="Gestor de Archivos"),
     KeyChord([mod], "a", [
         Key([], "d", lazy.spawn("discord")),
         Key([], "w", lazy.spawn("firefox"), desc="Cargar Firefox"),
